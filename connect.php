@@ -4,10 +4,10 @@
 #$pass="123456";
 #$dbname="alibaba";
 
-$server = getenv('MYSQL_HOST'); // Automatically set by Railway
-$user = getenv('MYSQL_USER'); // Automatically set by Railway
-$pass = getenv('MYSQL_PASSWORD'); // Automatically set by Railway
-$dbname = getenv('MYSQL_DATABASE'); // Automatically set by Railway
+$server = getenv('MYSQLHOST'); // Automatically set by Railway
+$user = getenv('MYSQLUSER'); // Automatically set by Railway
+$pass = getenv('MYSQL_ROOT_PASSWORD'); // Automatically set by Railway
+$dbname = getenv('MYSQLDATABASE'); // Automatically set by Railway
 
 $dsn="mysql:host=$server;dbname=$dbname";
 try{
